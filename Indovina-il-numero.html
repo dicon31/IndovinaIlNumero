@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indovina il numero</title>
+    <link rel="stylesheet" href="./Indovina-il-numero.css">
+    <script src="./Indovina-il-numero.js" defer></script>
+</head>
+<body>
+    <h1>Giochiamo a Indovina il numero</h1>
+    <div id="box">
+        <h2>Indovina il numero estratto</h2>
+        <div id="messaggio1"></div>
+        <br>
+        <label><strong>Quanti tentativi?(1-10)</strong></label>
+        <br>
+        <br>
+        <input type="number" min="1" max="10" placeholder="Inserisci numero di tentativi" id="tentativi" required>
+        <br>
+        <br>
+        <label><strong>Prova ad indovinare il numero estratto?(1-100)</strong></label>
+        <br>
+        <br>
+        <input type="number" min="1" max="100" placeholder="Inserire il numero" id="NumeroInserire" required>
+        <br>
+        <br>
+        <button id="Indovina"><strong>Indovina</strong></button>
+        <button id="NuovaPartita"><strong>Nuova Partita</strong></button>
+        <br>
+        <br>
+        <div id="messaggio2"></div>
+        <span id="errore"></span>
+        <br>
+        <span id="errore1"></span>
+
+    </div>
+    
+</body>
+</html>
